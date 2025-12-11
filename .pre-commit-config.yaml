@@ -9,13 +9,10 @@ repos:
     hooks:
       - id: isort
 
-  - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.4.4
     hooks:
-      - id: trailing-whitespace
-      - id: end-of-file-fixer
-
-  - repo: https://github.com/asottile/pyupgrade
-    rev: v3.15.0
-    hooks:
-      - id: pyupgrade
+      - id: ruff
+        args: [ --fix ]               # Enable autofix behavior
+        types_or: [ python, pyi ]
+    
