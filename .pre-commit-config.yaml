@@ -15,4 +15,3 @@ repos:
       - id: ruff
         args: [ --fix ]               # Enable autofix behavior
         types_or: [ python, pyi ]
-    
