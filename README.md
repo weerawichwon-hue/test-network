@@ -18,6 +18,10 @@ Before running the script, ensure you have:
     cd your-repo
     ```
 
+    ## Development
+
+    - See the pre-commit configuration and recommended hooks in [pre-commit.md](pre-commit.md).
+
 2.  **Install dependencies**
     ```bash
     pip install -r requirements.txt
