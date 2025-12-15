@@ -5,3 +5,5 @@
 # Python caches and test artifacts
 __pycache__/
 .pytest_cache/
+.vscode/
+.copilot-ignore

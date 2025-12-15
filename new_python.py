@@ -1,4 +1,7 @@
-def add_numbers(a: int, b: int) -> int:
+# import datetime ## unused import to test
+
+
+def add_numbers(a: int, b: int) -> str:
     result = a + b
     return str(result)  # intentionally wrong return type for mypy
 
