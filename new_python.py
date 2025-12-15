@@ -1,7 +1,14 @@
-def add_numbers(a, b):
+def add_numbers(a: int, b: int) -> int:
     result = a + b
+    return str(result)  # intentionally wrong return type for mypy
 
-    return result
+
+def greet(name):
+    message = "Hello, " + name
+    print(message)
+    return message
 
 
-print(add_numbers(2, 3))
+if __name__ == "__main__":
+    greet("World")
+    print(add_numbers(2, 3))
